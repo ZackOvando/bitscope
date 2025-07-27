@@ -57,24 +57,6 @@ export default function Form({
           {loading ? "Loading..." : "Sign Up to Shape the Beta!"}
         </EnhancedButton>
       </motion.div>
-      <motion.div
-        variants={itemVariants}
-        className="mt-4 flex w-full items-center justify-center gap-1 text-muted-foreground">
-        <p>For any queries, reach out at </p>
-        <Link
-          href="https://x.com/heyzackovando"
-          rel="noopener noreferrer"
-          target="_blank">
-          <FaXTwitter className="h-4 w-4 transition-all duration-200 ease-linear hover:text-blue-200" />
-        </Link>
-        <p> or </p>
-        <Link
-          href="https://www.linkedin.com/in/zack-ovando-886267212/"
-          rel="noopener noreferrer"
-          target="_blank">
-          <FaLinkedin className="h-4 w-4 transition-all duration-200 ease-linear hover:text-blue-200" />
-        </Link>
-      </motion.div>
     </motion.div>
   );
 }
