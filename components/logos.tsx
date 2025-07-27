@@ -5,9 +5,9 @@ import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import TextBlur from "./ui/text-blur";
 
 const content = [
-  "Deploy a Read-Only IAM Role",
-  "We Scan for Risk and Drift",
-  "You Get Least-Privilege Recommendations"
+  "Connect with a safe read-only IAM role in minutes.",
+  "We flag IAM drifts before it becomes a problem",
+  "Get early access to reduce permission risks and save money."
 ];
 
 export default function Logos() {
@@ -20,14 +20,14 @@ export default function Logos() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-2xl font-medium tracking-tight text-zinc-200 md:text-3xl"
-          text="How?"
+          text="Why Join Now?"
         />
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-base text-zinc-300 sm:text-lg"
-          text="Here's how we plan to fix it. Let us know what you think!"
+          text="Early access, lifetime discount, and direct input into what we build next."
           duration={0.8}
         />
       </motion.div>

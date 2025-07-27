@@ -54,7 +54,7 @@ export default function Form({
           iconPlacement="right"
           className="mt-2 w-full"
           disabled={loading}>
-          {loading ? "Loading..." : "Join Waitlist!"}
+          {loading ? "Loading..." : "Sign Up to Shape the Beta!"}
         </EnhancedButton>
       </motion.div>
       <motion.div

@@ -135,7 +135,7 @@ export default function Home() {
         quantityDesktop={350}
         quantityMobile={100}
         ease={80}
-        color={"#F7FF9B"}
+        color={"#4a79ad"}
         refresh
       />
     </main>

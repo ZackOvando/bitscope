@@ -30,14 +30,14 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-3xl font-medium tracking-tighter sm:text-5xl"
-          text={"Your AWS IAM is Over-Permissioned.\nWe Aim to Fix That."}
+          text={"82% of cloud breaches start with IAM misconfigurations costing companies $5M each."}
         />
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <TextBlur
           className="mx-auto max-w-[27rem] pt-1.5 text-center text-base text-zinc-300 sm:text-lg"
-          text="Join the waitlist to get early access to Bitscope, 2 months free, and recieve updates on the progress!"
+          text="Get priority access and a 40% lifetime discount when we launch. Your feedback will help us stop IAM drift at the source."
           duration={0.8}
         />
       </motion.div>
